@@ -1,0 +1,57 @@
+/*CSS varriable where you can reference back to later when things get repetative.*/
+:root {
+    /* declare a variable with `--` syntax */
+    --turquoise: #8cc0bd;
+    --light: #fff;
+    --olive-green: #434f39;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    /*CSS var() function is to reference a variable created above */
+    background-color: var(--turquoise);
+    color: var(--light);
+  }
+
+ .start {
+height: 70%;
+width: 100%;
+position: relative;
+z-index: 1;
+ } 
+
+ .main-banner h2 {
+    position: relative;
+    z-index: 2;
+    color: var(--olive-green);
+    font-size: 130%;
+    font-family: ;
+   /* (left right etc)*/
+ }
+
+ header h1 {
+    font-size: 200%;
+    color: var(--olive-green);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+h3 {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: var(--olive-green);
+  }
+
+  a {
+    color: black;
+    justify-content: right;
+    font-size: 20px;
+  }

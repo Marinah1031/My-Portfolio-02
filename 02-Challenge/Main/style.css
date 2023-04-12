@@ -1,57 +1,89 @@
 /*CSS varriable where you can reference back to later when things get repetative.*/
 :root {
-    /* declare a variable with `--` syntax */
-    --turquoise: #8cc0bd;
-    --light: #fff;
-    --olive-green: #434f39;
+  /* declare a variable with `--` syntax */
+  --turquoise: #8cc0bd;
+  --light: #fff;
+  --olive-green: #434f39;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    
-  }
+  display: flex;
+  flex-direction: column;
+  
+}
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3%;
-    /*CSS var() function is to reference a variable created above */
-    background-color: var(--turquoise);
-    color: var(--light);
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  /*CSS var() function is to reference a variable created above */
+  background-color: var(--turquoise);
+  color: var(--light);
+}
 
- .start {
-height: 70%;
+nav a{
+  margin: 10px;
+}
+
+nav{
+  display: flex;
+}
+
+.start {
+height:100%;
 width: 100%;
-position: relative;
+position: absolute;
 z-index: 1;
- } 
+} 
 
- .main-banner h2 {
-    position: relative;
-    z-index: 2;
-    color: var(--olive-green);
-    font-size: 130%;
-    font-family: ;
-   /* (left right etc)*/
- }
+.main-banner {
+  position: relative;
+  height: 500px;
 
- header h1 {
-    font-size: 200%;
-    color: var(--olive-green);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+}
 
+.main-banner h2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  color: var(--light);
+  font-size: 200%;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+ /* (left right etc)*/
+}
+
+header h1 {
+  font-size: 300%;
+  color: var(--olive-green);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Page-Section h3, section {
+  margin: 10px;
+  z-index: 3;
+}
+.Page-Wrap, .Page-Section, #about, h3{
+ margin-top: auto;
+ text-align: left;
+  z-index:3;
+}
 h3 {
-    font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: var(--olive-green);
-  }
+  font-size: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: var(--olive-green);
+  z-index: 2;
+}
+h4 p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  margin: 30px;
 
-  a {
-    color: black;
-    justify-content: right;
-    font-size: 20px;
-  }
+
+}
+a {
+  color: black;
+  justify-content: right;
+  font-size: 20px;
+}

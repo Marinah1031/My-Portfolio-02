@@ -88,3 +88,58 @@ a {
   justify-content: right;
   font-size: 20px;
 }
+.tabs {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 10px;
+}
+.Calculator {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style:groove;
+  border-color: var(--olive-green);
+  margin: 20px;
+}
+.Pastel {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style:groove;
+  border-color: var(--olive-green);
+  margin: 20px;
+}
+.LED {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style:groove;
+  border-color: var(--olive-green);
+  margin: 20px;
+}
+.Surf {
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style:groove;
+  border-color: var(--olive-green);
+  margin: 20px;
+}
+.Run {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style:groove;
+  border-color: var(--olive-green);
+  margin: 20px;
+}
+.code-card .code-block {
+  flex-grow: 1;
+}

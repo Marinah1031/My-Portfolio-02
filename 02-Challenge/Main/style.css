@@ -102,13 +102,14 @@ a {
   justify-content: right;
   font-size: 20px;
 }
-
+/*The border around (VISIT WEBSITE)*/
 .img h4{
   position: relative;
   margin-right: 20px;
   margin-bottom: 20px;
   color: var(--light);
 }
+/*All of the images in the other tabs that are provided*/
 .tabs {
   display: flex;
   justify-content: flex-end;
@@ -130,9 +131,10 @@ a {
 }
 /*Image with calculator
 
-How to add text onto images?
-How to add border around text and fill inside?
-How to attach link to images tabs
+How to add text onto images? - Use of flexbox, adding another header under 
+and position where the item needs to go. 
+How to add border around text and fill inside? - Adding a border color would help.
+How to attach link to images tabs? - Add a URL to desired website in the href="" section. 
 how to make images responsive?*/
 
 button:hover {
@@ -144,6 +146,7 @@ button:active {
   font-size: 30%;
   box-shadow: var(--olive-green);
 }
+/*buttons that are displayed under the images*/
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -154,7 +157,6 @@ button:active {
 
 .Surf {
   width: 75%;
-  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -181,6 +183,7 @@ button:active {
 
 }
 
+/*VISIT WEBSITE border color and position*/
 .inner-wrapper {
 position: absolute;
 bottom: 30px;

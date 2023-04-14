@@ -19,10 +19,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3%;
+  width: 100%;
+  padding: 4%;
   /*CSS var() function is to reference a variable created above */
   background-color: var(--turquoise);
-  color: var(--light);
 }
 
 nav a{
@@ -64,6 +64,7 @@ width: 100%;
 /*About Me Header*/
 header h1 {
   font-size: 300%;
+padding: 20px;
   color: var(--olive-green);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -101,6 +102,13 @@ a {
   justify-content: right;
   font-size: 20px;
 }
+
+.img h4{
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: var(--light);
+}
 .tabs {
   display: flex;
   justify-content: flex-end;
@@ -122,11 +130,27 @@ a {
 }
 /*Image with calculator
 
-How to crop images smaller?
 How to add text onto images?
 How to add border around text and fill inside?
-How to attach link to images tabs*/
+How to attach link to images tabs
+how to make images responsive?*/
 
+button:hover {
+  background-color: var(--turquoise);
+  color: var(--olive-green);
+}
+
+button:active {
+  font-size: 30%;
+  box-shadow: var(--olive-green);
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: var(--olive-green);
+  text-decoration: none;
+  font-weight: bold;
+}
 
 .Surf {
   width: 75%;
@@ -140,4 +164,26 @@ How to attach link to images tabs*/
   border-color: var(--olive-green);
   margin: 20px;
   float: right;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: row;
+  }
+  header {
+    background: var(--turquoise);
+  }
+}
+
+.wrapper {
+  position: relative;
+
+}
+
+.inner-wrapper {
+position: absolute;
+bottom: 30px;
+right: 40px;
+background-color: var(--light);
 }

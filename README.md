@@ -1,5 +1,6 @@
 # My-Portfolio-02
 
+## Deployed Application: https://marinah1031.github.io/My-Portfolio-02/
 ## Building Code From Scratch:
 
 Using elements of HTML and CSS
